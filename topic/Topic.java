@@ -2,7 +2,7 @@ package first.topic;
 
 public class Topic
 {
-		private int id;
+		private String id;
 		private String name;
 		private String department;
 		
@@ -10,16 +10,16 @@ public class Topic
 		{	
 		}
 		
-		public Topic(int id, String name, String department) {
+		public Topic(String id, String name, String department) {
 			super();
 			this.id = id;
 			this.name = name;
 			this.department = department;
 		}
-		public int getId() {
+		public String getId() {
 			return id;
 		}
-		public void setId(int id) {
+		public void setId(String id) {
 			this.id = id;
 		}
 		public String getName() {
