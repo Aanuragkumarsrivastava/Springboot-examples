@@ -7,16 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="add customer details">
-		<input type="text" name="id">
-		<br>
-		<input type="text" name="name">
-		<br>
-		<input type="text" name="email">
-		<br>
-		<input type="submit">
-		<br> 
-	</form>
+	<form method="post" action="details">
+		
+		Enter customer id:<input type="text" name="id">
+		Enter Customer Name:<input type="text" name="name">
+		Enter Customer Email:<input type="email" name="email">
+		<input type="submit" value="submit">
+
+</form>
 
 </body>
 </html>
